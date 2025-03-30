@@ -19,6 +19,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Third-party apps
     # Your applications
+    'apps.accounts.apps.AccountsConfig',
+    'apps.events.apps.EventsConfig'
 ]
 
 # Database
